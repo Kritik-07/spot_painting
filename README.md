@@ -9,15 +9,15 @@ This project demonstrates how to create a spot painting using Python's `turtle` 
 The first part of the code extracts colors from an image using the `colorgram` library. Uncomment and run the code below to extract colors from an image.
 
 ```python
-# import colorgram
-# colors = colorgram.extract('spot_painting.jpeg', 25)
-# colours = []
-# for color in colors:
-#     r = color.rgb.r
-#     g = color.rgb.g
-#     b = color.rgb.b
-#     new_colour = (r, g, b)
-#     colours.append(new_colour)
+ import colorgram
+ colors = colorgram.extract('spot_painting.jpeg', 25)
+ colours = []
+ for color in colors:
+     r = color.rgb.r
+     g = color.rgb.g
+     b = color.rgb.b
+     new_colour = (r, g, b)
+     colours.append(new_colour)
 ```
 
 # Code Second Part
